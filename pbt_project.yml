@@ -1,0 +1,41 @@
+name: prophecy-libs-test
+description: ''
+version: 0.0.1
+author: nimbus@prophecy.io
+language: scala
+buildSystem: maven
+pipelines:
+  pipelines/test:
+    name: test
+    description: ''
+    author: nimbus@prophecy.io
+    mode: batch
+    language: scala
+    createdAt: '2023-03-21 21:56:47'
+    modifiedAt: '2023-03-21 21:56:56'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates:
+  templates/maven:
+    name: maven
+    description: null
+    author: nimbus@prophecy.io
+    mode: batch
+    language: scala
+    createdAt: '2023-03-21 21:56:38'
+    modifiedAt: '2023-03-21 21:56:38'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+sqlModels: {}
+sqlPipeline: null
+dependencies: []
+projectDependencies: {}
+pipelineConfigurations: {}
