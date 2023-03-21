@@ -15,7 +15,7 @@ pipeline:
     		<scalaBaseVersion>@(buildMetadata.platform.scalaBaseVersion)</scalaBaseVersion>
     		<scalaVersion>@(buildMetadata.platform.scalaVersion)</scalaVersion>
     		<sparkVersion>@(buildMetadata.platform.sparkVersion)</sparkVersion>
-            <prophecyLibsVersion>3.3.0-7.0.12-fixdeps-SNAPSHOT</prophecyLibsVersion>
+            <prophecyLibsVersion>7.0.12-fixdeps-SNAPSHOT</prophecyLibsVersion>
     	</properties>
     	<repositories>
           @Xml(dependencies.mvnRepositories)
