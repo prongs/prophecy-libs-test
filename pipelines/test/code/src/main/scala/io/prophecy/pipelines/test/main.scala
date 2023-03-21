@@ -15,9 +15,11 @@ import org.apache.spark.sql.expressions._
 import java.time._
 
 object Main {
-  def apply(context: Context): Unit = {}
 
-  def main(args:     Array[String]): Unit = {
+  def apply(context: Context): Unit =
+    Script_0(context)
+
+  def main(args: Array[String]): Unit = {
     val config = ConfigurationFactoryImpl.fromCLI(args)
     val spark: SparkSession = SparkSession
       .builder()

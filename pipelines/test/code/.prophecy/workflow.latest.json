@@ -44,7 +44,33 @@
     "topLevelPackage" : "io.prophecy.pipelines.test"
   },
   "connections" : [ ],
-  "processes" : { },
+  "processes" : {
+    "or1wqGNQtFix7Ja5mCth7$$o84vuc9xcAjquwiJ52rda" : {
+      "id" : "or1wqGNQtFix7Ja5mCth7$$o84vuc9xcAjquwiJ52rda",
+      "component" : "Script",
+      "metadata" : {
+        "label" : "Script_0",
+        "slug" : "Script_0",
+        "x" : 140,
+        "y" : 160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : true
+      },
+      "properties" : {
+        "script" : "val x = 1",
+        "scriptMethodHeader" : "def apply(spark: SparkSession): Unit = {",
+        "scriptMethodFooter" : "    \n}"
+      }
+    }
+  },
   "ports" : {
     "inputs" : [ ],
     "outputs" : [ ],
