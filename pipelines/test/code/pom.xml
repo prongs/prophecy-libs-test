@@ -107,12 +107,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>io.delta</groupId>
-            <artifactId>delta-core_${scalaBaseVersion}</artifactId>
-            <version>1.1.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>com.databricks</groupId>
             <artifactId>dbutils-api_${scalaBaseVersion}</artifactId>
             <version>0.0.5</version>
